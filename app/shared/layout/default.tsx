@@ -1,25 +1,25 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link, NavLink, Outlet } from "react-router";
+import { NavLink, Outlet } from "react-router";
 import { MAIN_NAVIGATION } from "~/features/navigation/constants";
 import { classnames } from "../util";
 
-export default function DefaultLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function DefaultLayout() {
   return (
     <div className="flex h-dvh w-dvw">
-      <aside className="self-stretch border-r ">
+      <aside className="self-stretch border-r bg-gray-50 dark:bg-gray-800 border-gray-200 dark:border-gray-700">
         <nav>
           <ul className="flex flex-col items-center">
             {MAIN_NAVIGATION.map(({ route, label, icon }) => (
               <li key={route}>
                 <NavLink
                   className={({ isActive }) =>
-                    classnames("p-3 flex items-center justify-center aspect-square shrink-0 dark:hover:bg-gray-900 hover:bg-gray-100", {
-                      "dark:bg-purple-950 dark:hover:bg-purple-900 hover:bg-gray-200": isActive,
-                    })
+                    classnames(
+                      "p-3 flex items-center justify-center aspect-square dark:hover:bg-gray-900 hover:bg-gray-100",
+                      {
+                        "dark:bg-purple-950 dark:hover:bg-purple-900 hover:bg-gray-200":
+                          isActive,
+                      },
+                    )
                   }
                   to={route}
                   viewTransition
