@@ -1,7 +1,7 @@
 import { Content } from "./content";
-import { Title } from "./title";
+import { Section } from "./section";
 
 export const Page = {
   Content,
-  Title,
+  Section,
 };

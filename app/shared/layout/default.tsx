@@ -16,7 +16,7 @@ export default function DefaultLayout() {
                     classnames(
                       "p-3 flex items-center justify-center aspect-square dark:hover:bg-gray-900 hover:bg-gray-100",
                       {
-                        "dark:bg-purple-950 dark:hover:bg-purple-900 hover:bg-gray-200":
+                        "dark:bg-primary-950 dark:hover:bg-primary-900 hover:bg-gray-200":
                           isActive,
                       },
                     )
@@ -32,7 +32,7 @@ export default function DefaultLayout() {
           </ul>
         </nav>
       </aside>
-      <main className="flex-1">
+      <main className="flex-1 overflow-auto">
         <Outlet />
       </main>
     </div>
