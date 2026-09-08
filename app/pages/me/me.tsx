@@ -20,11 +20,11 @@ export function MePage() {
         <Typography.H2>In het kort</Typography.H2>
 
         <p>
-          Geboren in Amsterdam in 1997. Ik woon in Nijmegen met mijn vriendin
-          Sarah en onze poes Eve. Ik kook graag, en in mijn vrije tijd ben ik
-          bezig met het developen van hobbyprojecten die ik nooit afmaak. Ik heb
-          ook periodes dat ik veel achter de computer zit om games van vroeger
-          te herspelen.
+          Geboren in Amsterdam in 1997, nu woonachtig in Nijmegen met mijn
+          vriendin Sarah en onze poes Eve. Ik kook graag, en in mijn vrije tijd
+          ben ik bezig met het developen van hobbyprojecten die ik nooit afmaak.
+          Ik heb ook periodes dat ik veel achter de computer zit om games van
+          vroeger te herspelen.
         </p>
         <p>
           Ik heb in Zutphen op het Isendoorn College gezeten, waarna ik in

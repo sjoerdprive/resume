@@ -1,6 +1,6 @@
 import { Typography } from "~/shared/components/typography";
 import { Page } from "~/shared/layout/content";
-import { SkillCloud } from "../../elements/skill-cloud";
+import { SkillCloud } from "./skill-cloud";
 import { List } from "~/shared/components/list";
 
 export function SkillsPage() {
